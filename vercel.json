@@ -1,0 +1,11 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/about", "destination": "/#about", "permanent": false },
+    { "source": "/contact", "destination": "/#contact", "permanent": false },
+    { "source": "/services", "destination": "/#learn", "permanent": false },
+    { "source": "/uffda-academy", "destination": "https://uffdaacademy.com", "permanent": false },
+    { "source": "/(home|home-old|testimonials|why-choose-me|portfolio|tip-tammey|kristi|checkout|customer-dashboard|order-confirmation)", "destination": "/", "permanent": false }
+  ]
+}
