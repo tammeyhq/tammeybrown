@@ -58,15 +58,14 @@ h2 {
   padding: 16px 28px;
 }
 .brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   text-decoration: none;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  font-size: 1.35rem;
+  letter-spacing: 0.01em;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 2px;
 }
-.brand img { border-radius: 50%; }
 .topbar nav { display: flex; gap: 22px; }
 .topbar nav a {
   font-family: "Montserrat", sans-serif;
@@ -85,14 +84,14 @@ h2 {
 }
 .hero-photo {
   position: relative;
-  background: #000 url("https://tammeybrown.com/wp-content/uploads/2025/01/Tammey2025-web-scaled.jpg") 48% center / cover no-repeat;
+  background: #000 url("/images/tammey.jpg") 48% center / cover no-repeat;
   min-height: 560px;
 }
 .banner {
   position: absolute;
   top: 18%;
-  left: 64%;
-  width: 110%;
+  left: 72%;
+  width: 104%;
   z-index: 2;
   background: var(--navy);
   padding: 18px 28px;
@@ -249,7 +248,8 @@ section:not(.hero) { padding: 90px 0; }
 }
 
 @media (max-width: 520px) {
-  .brand span { display: none; }
+  .brand { font-size: 1.1rem; }
+  .topbar nav { gap: 10px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
